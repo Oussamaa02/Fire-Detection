@@ -8,8 +8,8 @@ const char* password = "<wifi password>";
 
 //---- HiveMQ Cloud Broker settings
 const char* mqtt_server = "43180b33bfd6466fa52d432b8081ed0b.s1.eu.hivemq.cloud";
-const char* mqtt_username = "projetSemestriel";
-const char* mqtt_password = "Projetsemestriel1";
+const char* mqtt_username = "<mqtt username>";
+const char* mqtt_password = "<mqtt password>";
 const int mqtt_port = 8883;
 
 // Define the analog input pin for the MQ5 sensor
