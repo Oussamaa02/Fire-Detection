@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: oussama
+    password: oa2002
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+mqtt:
+  broker:
+    url: ssl://43180b33bfd6466fa52d432b8081ed0b.s1.eu.hivemq.cloud:8883
+  client:
+    id: spring-boot-client-${random.uuid}
+  username: projetSemestriel
+  password: Projetsemestriel1
+  topic:
+    gas: sensor/mq2
+    fire: sensor/fire
+
+
